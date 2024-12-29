@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 NAME = "neo-api-client"
-VERSION = "1.2.0"
+VERSION = "1.3.0"
 # To install the library, run the following
 #
 # python setup.py install
 
 REQUIRES = ['bidict==0.22.1', 'certifi==2022.12.7', 'idna==2.10', 'numpy==1.24.2', 'pyjsparser==2.7.1', 'PyJWT==2.6.0',
             'python-dateutil==2.8.2', 'python-dotenv==1.0.0', 'requests==2.25.1', 'six==1.16.0', 'urllib3==1.26.14',
-            'websocket-client==1.5.1', 'websockets==8.1', 'pandas==2.0.0', 'asyncio==3.4.3']
+            'websocket-client==1.5.1', 'websockets==9.1', 'pandas==2.0.0', 'asyncio==3.4.3']
 
 setup(
     name=NAME,
